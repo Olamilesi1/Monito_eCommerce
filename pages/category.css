@@ -267,7 +267,28 @@
 #right3-head {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+#right-header3{
+  display: flex;
+  align-items: center;
   gap: 20px;
+}
+
+#sort-btn{
+  border: 1px solid  rgba(0, 52, 89, 1);;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px 15px;
+}
+
+#sort{
+  border: none;
+  background-color: transparent;
 }
 
 .product-cards {
