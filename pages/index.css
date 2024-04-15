@@ -809,18 +809,6 @@ gap: 50px;
   #header {
     width: 100%;
   }
-
-  #vnd{
-    /* border: 1px solid red; */
-  }
-
-  #first-cards{
-    /* border: 1px solid red; */
-  }
-
-  #second-cards{
-    /* border: 1px solid red; */
-  }
   
   #button1 {
     width: 43%;
@@ -850,10 +838,10 @@ gap: 50px;
   }
 
   #fifth-pictures{
-    /* width: 90%; */
-    /* border: 1px solid red; */
+
+
   }
-  } 
+ }
 
 @media(max-width: 1024px) {
   
