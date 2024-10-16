@@ -11,17 +11,17 @@
   background-color: white;
   }
 
+  #bars-search-icons {
+    display: none;
+  }
+
 #header {
     width: 90%;
     margin: auto;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     gap: 50px;
     padding-left: 10px;
-    /* position: fixed;
-    z-index: 6;
-    background-color: white; */
   }
   
   #left-side {
@@ -100,10 +100,9 @@
     gap: 34px;
     margin: 30px auto;
     padding-top: 30px;
-    /* border: 1px solid green; */
   }
   
-  #left-sides{
+#left-sides{
 width: 50%;
 margin: auto;
 position: relative;
@@ -113,7 +112,6 @@ position: relative;
     position: absolute;
     z-index: 1;
     bottom: -60px;
-    /* margin: 10px; */
   }
 
   #nav-left{
@@ -444,4 +442,108 @@ padding-left: 600px;
   }
   
   
+ @media (max-width: 768px) {
+  #bars-search-icons {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #big-search {
+    display: block;
+    font-size: 30px;
+  }
+
+  #menu-bar {
+    display: block;
+    font-size: 30px;
+    z-index: 3;
+  }
+
+  #header {
+    padding-top: 30px;
+    position: absolute;
+    top: 67px;
+    flex-flow: column wrap;
+    background-color: aliceblue;
+    z-index: 5;
+    padding-bottom: 30px;
+    gap: 50px;
+    width: 60%;
+    border-radius: 8px;
+    display: none;
+  }
+
+  #s-logo {
+    z-index: 3;
+  }
+
+  #first-section{
+    padding: 0px;
+  }
+
+  #first-body{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #left-sides{
+    width: 100%;
+    margin: auto ;
+    position: relative;
+      }
+
+  #ima1{
+    position: relative;
+    margin: auto;
+    z-index: 1;
+    top: 0px;
+    width: 100%;
+  }
+
+  #nav-left{
+    position: relative;
+    z-index: 1;
+    bottom: 141px;
+    left: 10px;
+  }
+
+  #nav-right{
+    position: relative;
+    z-index: 1;
+    bottom: 141px;
+    left: 501px;
+  }
+
+  #dog-ima{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    gap: 12px;
+    top: 80px;
+  }
+
+  #frm1{
+position: relative;
+top: 200px;
+  }
+
+  #icns{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    position: relative;
+    top: 300px;
+    gap: 20px;
+  }
+
+  #share{
+    font-size: 14px;
+    font-weight: 700;
+    color:  rgba(0, 42, 72, 1);
+  }
  
+ }
